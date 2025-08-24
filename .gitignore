@@ -1,0 +1,77 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build artifacts
+build/
+dist/
+wheels/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+*.egg
+
+# C extensions
+*.so
+
+# Logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing and coverage
+.tox/
+.nox/
+.coverage
+.coverage.*
+.coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+htmlcov/
+.pytest_cache/
+.hypothesis/
+.benchmarks/
+
+# Type checkers and linters
+.mypy_cache/
+.pytype/
+.pyre/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environments (uv / pip / conda)
+.venv/
+venv/
+ENV/
+env/
+envs/
+.env/
+.env.local
+.env.*.local
+.envrc
+
+# PEP 582 local packages (uv / Python)
+__pypackages__/
+
+# Conda and mamba
+.conda/
+.mamba/
+conda-env/
+condaenv/
+.conda-build/
+
+# IDE settings
+.vscode/
+.idea/
+*.iml
+out/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data File
+data/
